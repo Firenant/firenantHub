@@ -6,7 +6,6 @@
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageLabel = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -25,11 +24,9 @@ ImageLabel.Image = "rbxassetid://140083695140270"
 UICorner.CornerRadius = UDim.new(0, 100)
 UICorner.Parent = ImageLabel
 
-UIAspectRatioConstraint.Parent = ImageLabel
-
 -- Scripts:
 
-local function TWEYO_fake_script() -- ImageLabel.Ui 
+local function WVABF_fake_script() -- ImageLabel.Ui 
 	local script = Instance.new('Script', ImageLabel)
 
 	gui_name = script.Parent
@@ -39,8 +36,8 @@ local function TWEYO_fake_script() -- ImageLabel.Ui
 		gui_name.Rotation = gui_name.Rotation +3 --adds 1 degree every 0.03 seconds
 	end
 end
-coroutine.wrap(TWEYO_fake_script)()
-local function AWKEYN_fake_script() -- ImageLabel.Dragify 
+coroutine.wrap(WVABF_fake_script)()
+local function LYIG_fake_script() -- ImageLabel.Dragify 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -83,8 +80,8 @@ local function AWKEYN_fake_script() -- ImageLabel.Dragify
 		end
 	end)
 end
-coroutine.wrap(AWKEYN_fake_script)()
-local function ABWC_fake_script() -- ImageLabel.LocalScript 
+coroutine.wrap(LYIG_fake_script)()
+local function XJBMPCC_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local btn = script.Parent
@@ -93,4 +90,4 @@ local function ABWC_fake_script() -- ImageLabel.LocalScript
 		DarkaiX:ToggleUI()
 	end)
 end
-coroutine.wrap(ABWC_fake_script)()
+coroutine.wrap(XJBMPCC_fake_script)()
